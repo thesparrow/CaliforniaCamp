@@ -18,8 +18,11 @@ var express         = require("express"),
         campgroundRoutes    = require("./routes/campgrounds"),
         authRoutes          = require("./routes/auth");
 
-seedDB();    
-mongoose.connect("mongodb://localhost/california_camps");
+//seedDB();    
+// local connection 
+//mongoose.connect("mongodb://localhost/california_camps");
+// production connection 
+mongoose.connect("mongodb://admin:password@ds161048.mlab.com:61048/californiacamp");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
