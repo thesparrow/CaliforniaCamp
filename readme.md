@@ -123,6 +123,7 @@ Create  campgrounds/:id/comments       POST
 * Prevent an unauthenticated user from creating a campground
 * Save username+id to newly created campground
 
+# RESTful routes 
 * Add Method-Override
 * Add Edit Route for Campgrounds
 * Add Link to Edit Page
@@ -138,3 +139,18 @@ Create  campgrounds/:id/comments       POST
 * Hide/Show edit and delete buttons 
 
 #Refactoring Middleware 
+* Allow the middleware to be exported like a function
+* Call middleware to check authentication and camp ownership
+
+#Adding Flash: Improve User Interaction 
+* Demo working version 
+* Install and configure connect-flash
+* Add bootstrap alerts to header 
+
+#Deployment 
+* Set up Heroku for hosting application 
+* Use mLAb to host database
+
+#Environment Variables 
+* Separate production envrionment from localhost 
+* Include configurations 
