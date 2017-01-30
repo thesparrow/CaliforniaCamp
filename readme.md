@@ -1,5 +1,9 @@
-#Yelp Camp
+#California Camp
+* Awesome web application to see campsites in California
+* Utilizing mongoose, mongdb, express.js, and node.js 
+* Creating a full production ready app with authentication and RESTful backend 
 
+#Intro 
 * Add landing Page 
 * Add Campground Page that lists all campgrounds 
 
